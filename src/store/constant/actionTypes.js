@@ -1,0 +1,4 @@
+export const SET_PHOTOS = 'SET_PHOTOS'
+export const SET_LOADING = 'SET_LOADING'
+export const SET_PHOTO_DETAILS = 'SET_PHOTO_DETAILS'
+export const SET_LIKED_PHOTOS = 'SET_LIKED_PHOTOS'

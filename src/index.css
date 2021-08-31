@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* HOMEPAGE */
+
+
+/* Product */
+.card-product:hover{
+  box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+cursor: pointer;
+}
+
+/* Like SECTION */
+
+#like-section p{
+  color: #6c757d;
+}
+
+#like-section h3 h5{
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+.main-like{
+  background: #fff;
+}
+
+.text-indiv p{
+  font-size: 1.1rem;
+}
+.bi-heart-fill:hover{
+  color:rgb(255, 126, 148);
+  
+}
